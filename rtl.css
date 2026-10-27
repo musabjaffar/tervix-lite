@@ -1,0 +1,10 @@
+/* RTL support (Urdu, Arabic, etc.) */
+body{direction:rtl;text-align:right}
+.tv-topright,.tv-actions{margin-left:0;margin-right:auto}
+.tv-menu,.tv-nav ul{padding-right:0}
+.tv-ticker-in b{margin-left:14px}.tv-card--rank,.tv-card--list{flex-direction:row}
+.tv-live li{direction:rtl}.tv-content blockquote{padding-left:0;padding-right:20px;border-left:0;border-right:5px solid var(--accent)}
+.tv-clist .comment-body{padding-left:0;padding-right:58px}.tv-clist .avatar{left:auto;right:0}.tv-clist .children{margin-left:0;margin-right:24px}
+.nav-next{text-align:left}.tv-nav ul ul{left:auto;right:0}.tv-top{right:auto;left:16px}.tv-rail-nav button{margin-left:0;margin-right:6px}
+.tv-i-left,.tv-i-right{transform:scaleX(-1)}
+@media (max-width:860px){.tv-nav{inset:0 auto 0 0;transform:translateX(-100%)}.nav-open .tv-nav{transform:none}}
